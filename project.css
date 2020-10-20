@@ -1,0 +1,102 @@
+body,html {
+	height:100%;
+	margin:0;
+}
+
+nav ul {
+  border-bottom: 1px rgb(255,0,0) solid; 
+  position: absolute;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+}
+nav a {
+   display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color:black;
+}
+nav li{
+    display:inline;
+}
+
+#bg {
+	background: url("bgimage.jpg")  no-repeat top center fixed;
+	background-size: cover;
+	height:100%;
+}
+
+section{
+	margin:0;
+}
+
+#box{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 100vh;
+}
+
+#box p{
+	text-align: center;
+	color:white;
+}
+
+#hover2 {
+	background-color: white;
+	height:360px;
+	width:360px;
+	padding:5px;
+	box-shadow: 5px 5px 10px black;
+	border-radius: 10%;
+	display: none;
+	box-shadow: -5px 5px 10px black;
+}
+
+.Investment{
+	box-shadow: -5px 5px 10px black;
+}
+
+.house{
+	box-shadow: none;
+	height:70px;
+	width:70px;
+	padding:5px;
+}
+
+.logo{
+	box-shadow: none;
+	height:70px;
+	width:70px;
+	margin-left: 230px;
+}
+
+#hover2 li:before {
+	text-align: left;
+ 	content: "\25BA \0020";
+	color:rgb(176,66,83);
+
+	     }
+
+#hover2 li{
+	list-style: none;
+}
+img{
+	width:130px;
+	height:130px;
+	box-shadow: 5px 5px 10px black;
+	border-radius: 10%;
+}
+
+
+figcaption{
+	color:white;
+	font-size: 19px;
+	position:relative;
+	top:200px;
+	left:270px;
+}
